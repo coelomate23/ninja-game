@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="A side-scrolling ninja runner. Dodge zombies, slide under hangers, throw kunai.">
+<meta name="theme-color" content="#1b1f24">
+<title>Ninja Runner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="900" height="300"></canvas>
+  <div id="hud">
+    <div id="score">0 m</div>
+    <div id="right">
+      <div id="best">Best: 0 m</div>
+      <div id="ammo">★ ★ ★</div>
+    </div>
+  </div>
+  <div id="overlay" class="show">
+    <h1>NINJA RUNNER</h1>
+    <p><b>Space / ↑</b> jump &nbsp;·&nbsp; <b>↓</b> slide &nbsp;·&nbsp; <b>X</b> kunai</p>
+    <p class="hint">Press any key to start</p>
+  </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
