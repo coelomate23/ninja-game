@@ -2,7 +2,7 @@
 
 A side-scrolling browser runner. Dodge zombies, slide under hangers, throw kunai.
 
-**Play:** [GitHub Pages URL pending]
+**Play:** https://coelomate23.github.io/ninja-game/
 
 ## Controls
 - `Space` / `↑` — jump (hold for higher, tap for shorter)
